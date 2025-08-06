@@ -12,6 +12,15 @@ public static class HomeEndpointExtensions
             _logger.Information("Hello World!");
             
         });
+        endpoints.MapPost("/home", (ILogger _logger, HomeCreateRequest request) =>
+        {
+            _logger.Information("Payload request @request", request);
+        });
         return endpoints;
     }
+}
+
+public sealed class HomeCreateRequest
+{
+    public string Value { get; set; }
 }
