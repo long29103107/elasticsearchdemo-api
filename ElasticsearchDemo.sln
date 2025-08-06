@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticsearchDemo.Api", "ElasticsearchDemo.Api\ElasticsearchDemo.Api.csproj", "{753F11E0-DF5E-4E3B-BB9E-7861F30419EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLogicLogging", "BLogicLogging\BLogicLogging.csproj", "{CF20DD79-426A-4948-9F58-C9671E4C68D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B845F28-04D5-4C04-9DAF-24CA9CB83780}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{753F11E0-DF5E-4E3B-BB9E-7861F30419EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753F11E0-DF5E-4E3B-BB9E-7861F30419EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753F11E0-DF5E-4E3B-BB9E-7861F30419EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753F11E0-DF5E-4E3B-BB9E-7861F30419EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF20DD79-426A-4948-9F58-C9671E4C68D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF20DD79-426A-4948-9F58-C9671E4C68D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF20DD79-426A-4948-9F58-C9671E4C68D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF20DD79-426A-4948-9F58-C9671E4C68D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
