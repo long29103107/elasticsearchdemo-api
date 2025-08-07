@@ -28,7 +28,7 @@ services:
       - elasticsearch
     environment:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
-      - ELASTICSEARCH_SERVICEACCOUNTTOKEN=AAEAAWVsYXN0aWMva2liYW5hL2tpYmFuYS10b2tlbjp6RmhwMmNvUVNZS2xxR1VoT2w5Zzd3
+      - ELASTICSEARCH_SERVICEACCOUNTTOKEN=AAEAAWVsYXN0aWMva2liYW5hL2tpYmFuYS10b2tlbjpzMlVacmFPeFFfNjFuQV9CTGxFMDZ3
     ports:
       - 5601:5601
     networks:
