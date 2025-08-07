@@ -124,11 +124,13 @@ docker compose up kibana
 - Kibana: http://localhost:5601/
 
 ## 7. Login on kibana UI
-![alt text](http://url/to/img.png)
+![login image](https://github.com/long29103107/elasticsearchdemo-api/blob/main/Images/Login.png)
 
 ## 8. View log
 ``Stack Management`` > ``Index Management``
 Select index maps with pattern of indexFormat in ``appsettings.json``
+![log image](https://github.com/long29103107/elasticsearchdemo-api/blob/main/Images/Log.png)
+
 Example:
 ```
 indexFormat: logstash-elasticsearchdemo-api-development-{0:yyyy-MM}
