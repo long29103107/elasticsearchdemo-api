@@ -10,7 +10,6 @@ public static class HomeEndpointExtensions
         endpoints.MapGet("/home", (ILogger _logger) =>
         {
             _logger.Information("Hello World!");
-            
         });
         endpoints.MapPost("/home", (ILogger _logger, HomeCreateRequest request) =>
         {

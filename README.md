@@ -1,7 +1,5 @@
 # Blogic Logging
-
 This guide helps you set up centralized logging for .NET Core applications using Serilog, Elasticsearch, and Kibana.
----
 
 ## 🔧 1. Use library
 ### Add reference to project ``BLogicLogging.csproj``

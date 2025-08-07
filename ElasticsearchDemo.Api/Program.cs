@@ -7,8 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
-builder.Host.AddBLogicLogging();
 builder.Services.AddBLogicLogging();
+builder.Host.AddBLogicLogging(builder.Configuration);
 
 var app = builder.Build();
 app.UseMiddleware<SerilogMiddleware>();
@@ -19,6 +19,5 @@ app.UseSwaggerUI(options =>
     options.SwaggerEndpoint("/openapi/v1.json", "v1");
 });
 
-app.UseHttpsRedirection();
 app.MapHomeRoutes();
 app.Run();

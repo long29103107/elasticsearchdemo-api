@@ -35,13 +35,12 @@ public class SerilogMiddleware(IWebHostEnvironment env, ILogger logger) : IMiddl
         using (LogContext.PushProperty("RCID", correlationId))
         using (LogContext.PushProperty("ApplicationName", env.ApplicationName))
         using (LogContext.PushProperty("Environment", _env.EnvironmentName))
-        {
-            
+        {   
             _logger.Information("Request {method} {url} Body: {body}",
                 context.Request.Method,
                 context.Request.Path,
                 body);
             await next.Invoke(context);
-        }
+        } 
     }
 }
